@@ -56,6 +56,7 @@ builtins.removeAttrs
   path-deps-level2 = callTest ./path-deps-level2 { };
   operators = callTest ./operators { };
   preferWheel = callTest ./prefer-wheel { };
+  preferWheelPanel = callTest ./prefer-wheel-panel { };
   prefer-wheels = callTest ./prefer-wheels { };
   closure-size = callTest ./closure-size {
     inherit poetry;
